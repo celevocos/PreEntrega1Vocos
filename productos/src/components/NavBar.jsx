@@ -9,7 +9,7 @@ import logoBeauty from '../assets/logo6.png'
 export const NavBar = () => {
   return <>
     <Navbar bg="warning" data-bs-theme="warning" style={{padding:0}}>
-      <Container  >
+      <Container>
         <Navbar.Brand> <img src={logoBeauty} className="logo" alt="logo1" /> </Navbar.Brand>
         <Nav>
           <Nav.Link href="#home">Inicio</Nav.Link>
@@ -18,7 +18,7 @@ export const NavBar = () => {
             <NavDropdown.Item href="#action/2">Para Cabellos           </NavDropdown.Item>
             <NavDropdown.Item href="#action/3">Cuidado facial y Corporal</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="#oferrs">Ofertas- Promociones</Nav.Link>
+          <Nav.Link href="#offers">Ofertas- Promociones</Nav.Link>
           <Nav.Link href="#contact">Contacto</Nav.Link>
          </Nav>
          <Navbar.Brand className="justify-content-end" style={{padding: 0}}>
